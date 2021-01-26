@@ -1,13 +1,21 @@
 Cuales son las 3 fases del repositorio local git?
+Modificado, preparado y confirmado
 
 Que diferencia existe entre un objecto tracked y un objeto untracked?
+tracked permite llevar un control de archivos y untracked no
 
 Con cual subcomando del comando git podriamos renombrar un archivo o carpeta?
+git mv old_file_name new_file_name
 
 Cual es la sintaxis para genarar por medio de git un alias para una accion en especifico?
+git config --global alias.<alias_a_usar> <restart_command>
 
 Define con tus propias palabras en que consiste la fase llamada "staging area"?
+Es el area/fase donde preparas los cambios a realizar en un proyecto antes de comprometerte a guardarlos
 
 Con cual comando podemos subir nuestros cambios a nuestro repositorio local?
+git push 
 
 Cual es la recomendacion que se tiene que realizar cada vez que necesitamos subir nuestros cambios al repo remoto?
+Validar si el master no ha sido modificado recientemente usando el pull
+que los archivos modificados esten trakeados
